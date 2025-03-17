@@ -3,7 +3,7 @@ name: Github Action Practice
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   my-deploy-job:
