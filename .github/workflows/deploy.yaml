@@ -1,1 +1,14 @@
+name: Github Action Practice
 
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-deploy-job:
+    runs-on: Ubuntu-latest
+  
+  steps:
+    - name: Hello World
+      run: echo 'Hello World'
