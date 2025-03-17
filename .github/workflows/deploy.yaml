@@ -7,7 +7,7 @@ on:
 
 jobs:
   my-deploy-job:
-    runs-on: Ubuntu-latest
+    runs-on: ubuntu-latest
   
   steps:
     - name: Hello World
